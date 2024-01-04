@@ -17,6 +17,22 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/shop', function () {
+    return view('infoshop');
+});
+
+Route::get('/why', function () {
+    return view('infowhy');
+});
+
+Route::get('/testimonial', function () {
+    return view('infotesti');
+});
+
+Route::get('/contact', function () {
+    return view('infokontak');
+});
+
 Route::resource('brands', BrandController::class);
 Route::resource('categories', CategoryController::class);
 Route::resource('subcategories', SubcategoryController::class);
