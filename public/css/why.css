@@ -1,0 +1,43 @@
+.why_section .box {
+    text-align: center;
+    margin-top: 45px;
+    background-color: #f9f8f7;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.why_section .box .img-box {
+    margin-bottom: 15px;
+}
+
+.why_section .box .img-box svg {
+    width: 55px;
+    height: auto;
+    fill: #320b57;
+}
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
+
+.layout_padding2 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.layout_padding2-top {
+    padding-top: 45px;
+}
+
+.layout_padding2-bottom {
+    padding-bottom: 45px;
+}
+
+.layout_padding-top {
+    padding-top: 90px;
+}
+
+.layout_padding-bottom {
+    padding-bottom: 90px;
+}

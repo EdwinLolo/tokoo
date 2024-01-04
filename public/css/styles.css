@@ -1,0 +1,14 @@
+/* Add custom CSS for hover effect */
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+/* Add this to close the dropdown on mouse leave */
+.dropdown-menu:hover {
+    display: block;
+}
+
+/* Optional: Adjust dropdown styling */
+.dropdown-menu {
+    margin-top: 0;
+}
