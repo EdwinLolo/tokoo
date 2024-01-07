@@ -106,11 +106,13 @@
     .kontak h6 {
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 
     .kontak a {
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 }
 
